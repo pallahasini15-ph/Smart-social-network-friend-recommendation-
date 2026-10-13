@@ -1,43 +1,47 @@
-Smart Social Network Friend Recommendation
+# Smart Social Network Friend Recommendation
 ___________________________________________
 A C-based mini project that represents users as vertices and friendship as edges in a graph.The system identifies mutual friends,calculates social distance using BFS/DFS
 
 
-
-
-Team Members
+## Team Members
 ____________________
-1.Rahul
-2.Hasini
-3.Greeshma
-4.Balasri
+1. Greeshma
+2. Hasini
+3. Rahul
+4. Balasri
 
-Data Structures Used
+## Data Structures Used
 ___________________________
->Linked lists
->Graphs
->Queue
->Stack
+- Linked lists
+- Graphs
+- Queue
+- Stack
 
 
-Project Overview
+## Project Overview
 _______________________________
-1.The project is a C-based Smart Social Network Friend Recommendation system.
-2.It represents users and friendships using graphs.
-3.It uses BFS and DFS to explore user connections.
-4.It calculates recommendation scores using mutual friends and social distance.
-5.It uses data structures such as linked lists, adjacency lists, and queues.
-6.It includes searching, sorting, and file handling.
+- The project is a C-based Smart Social Network Friend Recommendation system.
+- It represents users and friendships using graphs.
+- It uses BFS and DFS to explore user connections.
+- It calculates recommendation scores using mutual friends and social distance.
+- It uses data structures such as linked lists, adjacency lists, and queues.
+- It includes searching, sorting, and file handling.
 
 
-Current Progress
+## Current Progress
 ______________________
-1.Created main.c for the main program.
-2.Created social_network.h as the header file.
-3.Created users.c for user-related functionality.
-4.Created graph.c for graph operations.
-5.Created bfs.c for BFS traversal.
-6.Created dfs.c for DFS traversal.
-7.Created recommendation.c for friend recommendations.
-8.Created file_handling.c for file operations.
-9.Defined the recommendation score formula: (Mutual Friends × 10) − Social Distance.
+- [x] Created main.c for the main program.
+- [x] Created social_network.h as the header file.
+- [x] Created users.c for user-related functionality.
+- [x] Created graph.c for graph operations.
+- [x] Created bfs.c for BFS traversal.
+- [x] Created dfs.c for DFS traversal.
+- [x] Created recommendation.c for friend recommendations.
+- [x] Created file_handling.c for file operations.
+- [x] Defined the recommendation score formula: (Mutual Friends × 10) − Social Distance.
+
+
+## Future Enhancements
+__________________________
+- [ ] Add Improve recommendation scoring and support candidates with no mutual friends.
+- [ ] Add user profile details and privacy controls 
